@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>HeritageFlame Co.</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="pagestyle.css"/>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="pagestyle.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -22,10 +22,36 @@
             <li><a href="ContactPage.aspx">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>
-            Home
-        </h1>
+    <main class="home-page">
+        <h1>Home</h1>
+        <p>Welcome to HeritageFlame Co. We are a company that specializes in the creation of custom made candles. We offer a wide variety of candles that are perfect for any occasion. Our candles are made with the highest quality materials and are designed to last. We take pride in our work and strive to provide our customers with the best products possible. We hope you enjoy our website and find the perfect candle for you!</p>
+        <h3>Most popular products:</h3>
+        <div class="products-wrapper">
+            <div class="product">
+                <img src="/images/product-1.jpg" alt="Alternate Text" />
+                <h5 class="title">Lorem ipusm</h5>
+                <span>Small descriptiom</span>
+                <p>Price: 420$</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="/images/product-2.jpg" alt="Alternate Text" />
+                <h5 class="title">Lorem ipusm</h5>
+                <span>Small descriptiom</span>
+                <p>Price: 420$</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="/images/product-3.jpg" alt="Alternate Text" />
+                <h5 class="title">Lorem ipusm</h5>
+                <span>Small descriptiom</span>
+                <p>Price: 420$</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
     </main>
+    <div class="footer">
+        <p>&copy; 2021 HeritageFlame Co.</p>
+    </div>
 </body>
 </html>
