@@ -8,6 +8,15 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="pagestyle.css" />
     <script src="Scripts/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVSFH0SVH5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SVSFH0SVH5');
+    </script>
 </head>
 <body>
     <header>HeritageFlame Co.</header>

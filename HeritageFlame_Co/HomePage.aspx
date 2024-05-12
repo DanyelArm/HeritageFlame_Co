@@ -7,6 +7,14 @@
     <title>HeritageFlame Co.</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="pagestyle.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVSFH0SVH5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SVSFH0SVH5');
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
